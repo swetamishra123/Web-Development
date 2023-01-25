@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2rem 1rem;
+    background-color: #F7F8FC;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: "Rubik",sans-serif;
+}
+h5{
+    color:grey;
+}
+
+.card-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 24rem;
+    margin: 0.5rem;
+    padding: 1.2rem;
+    background-color:white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.card h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.card .c{  
+    margin-top: 1.2rem;
+}
+
+.card .c .price,.card .c .old-price,.card .c .discount{
+    font-family: "Rubik",sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.card .c .price{
+    color: magenta;
+}
+
+.card .c .old-price{
+    text-decoration: line-through;
+    color: rgb(119 124 133);
+}
+
+.card .c .discount{
+    color: #fff;
+    background-color: rgb(29 209 161);
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+}
